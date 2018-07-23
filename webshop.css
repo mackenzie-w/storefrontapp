@@ -1,0 +1,206 @@
+body {
+    background-image: url("./assets/background.jpg");
+    background-size: cover;
+    
+}
+.wrapper {
+    margin: 3%;
+}
+.headerback {
+    width: 100%;
+    height: 30%;
+    padding: 20px;
+    background-image: url("./assets/background-stars.png");
+}
+.header {
+    width: 55%;
+    border: double 3px black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgb(255, 222, 173, 0.75); 
+    opacity: 0.75;
+    transform: translate(0, 10px);
+}
+.logo {
+    max-width: 200px;
+    max-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: dotted 3px black;
+    display: block;
+    transform: translate( 0, -65%);
+}
+.headertext {
+    word-spacing: 600px;
+}
+.nav {
+    background-color: rgb(255, 222, 173, 0.75);
+    border: double 3px black;
+    width: 65%;
+    margin-left:auto;
+    margin-right: auto;
+    transform: translate(0,-25px);
+    word-spacing: 10px;
+    
+}
+.button1 {
+    background-color: bisque;
+    font-size: medium;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 50px;
+    opacity: 1;
+    
+}
+.button2 {
+    background-color: bisque;
+    font-size: medium;
+    padding: 10px;
+    margin: 10px;
+    opacity: 1;
+}
+.BASNL {
+    border:double 3px black;
+    background-color: rgb(255, 222, 173, 0.75);
+    width: 50%;
+    height: 25%;
+    display: inline-block;
+    margin: 0 0 1em;
+    float: right;
+}
+.merch {
+    border:double 3px black;
+    background-color: rgb(255, 222, 173, 0.75);
+    width: 100%;
+    height: 50%;
+    display: block;
+    margin: 0 0 1em;
+    transform: translate(-2px, 0);
+}
+.reviews {
+    border:double 3px black;
+    background-color: rgb(255, 222, 173, 0.75);
+    width: 50%;
+    height: 75%;
+    display: inline-block;
+    margin: 0 0 1em;
+}
+.scenery {
+    border:double 3px black;
+    background-color: rgb(255, 222, 173, 0.75);
+    width: 50%;
+    height: 75%;
+    display: inline-block;
+    margin: 0 0 1em;
+    transform: translate(96%, 0);
+    text-align: center;
+}
+.masonrytable {
+    column-span: none;
+    column-count: 3;
+    column-gap: 1em;
+}
+.masonrytablepanel {
+    break-inside: avoid;
+    page-break-inside: avoid;
+}
+.travelideas {
+    border:double 3px black;
+    background-color: rgb(255, 222, 173, 0.75);
+    width: 100%;
+    height: 50%;
+    display: inline-block;
+    margin: 0 0 1em;
+    transform: translate(-2px, 0);
+}
+.advertising {
+    border:double 3px black;
+    background-color: rgb(255, 222, 173, 0.75);
+    width: 50%;
+    height: 25%;
+    display: inline-block;
+    margin: 0 0 1em;
+}
+.footer {
+    width: 65%;
+    border: double 3px black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgb(255, 222, 173, 0.75); 
+    opacity: 0.75;
+}
+form {
+    border: solid 3px peru;
+    background-color: peru;
+}
+.formcontainer {
+    padding: 1px;
+    background-color: peru;
+    text-align: center;
+}
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 9px;
+    display: inline-block;
+    border: 1px solid peru;
+    box-sizing: border-box;
+}
+
+input[type=checkbox] {
+    margin-top: 0px;
+}
+
+input[type=submit] {
+    background-color: peru;
+    color: white;
+    border: none;
+}
+.sceneryhead {
+    width: 100%;
+    background-color: peru;
+    padding: 0.1px;
+    
+}
+.scenerycontainer {
+    border: solid 3px peru;
+    background-color: peru;
+}
+.sceneryimg {
+    height: 90px;
+    width: 90px;
+}
+.merchdiv {
+    border: solid 3px peru;
+    border-radius: 15px;
+    height: 25%;
+    width: 40%;
+    padding: 10px;
+}
+.merchtable {
+    columns: auto, 2;
+    column-gap: 20px;
+    column-span: none;
+}
+.merchtablepanel {
+    break-inside: avoid;
+    page-break-inside: auto;
+}
+.container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0, 0;
+}
+/*.travelideasdiv {
+    border: solid 3px peru;
+    border-radius: 15px;
+    height: 25%;
+    width: 40%;
+    padding: 10px;
+}*/
+.checked {
+    color: orange;
+}
